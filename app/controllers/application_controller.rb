@@ -14,4 +14,3 @@ class ApplicationController < ActionController::Base
    return redirect_to(controller: 'sessions', action: 'new') unless logged_in?
  end
 end
-end
